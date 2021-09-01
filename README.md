@@ -10,5 +10,5 @@ With the client and server files compiled on their respective machines, call the
 
 ## Example output
 ```
-Thursday, February 2, 2006 13:45:51-PST
+Mon Feb 13 12:43:10 PST 2021
 ```
