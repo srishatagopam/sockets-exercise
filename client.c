@@ -73,7 +73,7 @@ int main(int argc, char *argv[])
         //CONNECT -- UDP
         if(connect(s_udp, (struct sockaddr *)&sin, sizeof(sin)) < 0)
         {
-            perror("can't connect to port 5018 on jason.sdsu.edu");
+            perror("can't connect to port");
             exit(1);
         }
         
@@ -112,7 +112,7 @@ int main(int argc, char *argv[])
         //CONNECT -- TCP
         if(connect(s_tcp, (struct sockaddr *)&sin, sizeof(sin)) < 0)
         {
-            perror("can't connect to port 5018 on jason.sdsu.edu");
+            perror("can't connect to port");
             exit(1);
         }
 

@@ -43,8 +43,8 @@ int main()
     //Reset cin - used for UDP to connect to client
     bzero((char *)&cin, sizeof(cin));
 
-    //Populate host
-    char *hostname = "jason.sdsu.edu";
+    //Populate host - use your host name here
+    char *hostname = "xxx";
     if(host = gethostbyname(hostname))
     {
         bcopy(host->h_addr, (char *)&sin.sin_addr, host->h_length);
